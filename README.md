@@ -14,13 +14,13 @@
 
 ## Инструкция по запуску:
 
-### Запуск в терминале
-Установите зависимости:  
-bash  
+### Запуск в терминале  
+Установите зависимости:   
+bash   
 **pip install python-telegram-bot huggingface_hub**
 
-Создайте файл .env:
-text
+Создайте файл .env:  
+text  
 **TELEGRAM_TOKEN="ваш_телеграм_токен"  
 HF_API_KEY="ваш_hf_токен"**
 
@@ -30,5 +30,5 @@ bash
 
 
 ### Запуск в контейнере  
-bash  
+bash    
 **docker build -t hf-bot . && docker run --env-file .env hf-bot**
